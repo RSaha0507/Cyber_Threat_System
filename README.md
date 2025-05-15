@@ -1,29 +1,29 @@
-# 🛡️ Cyber Threat Intelligence & Response System (CTIRS)
+# Cyber Threat Intelligence & Response System (CTIRS)
 
 A real-time, modular cybersecurity monitoring and response platform developed in Python.  
 It ingests threat feeds, detects anomalies using intelligent models, visualizes threats through a live dashboard, and sets the foundation for automated incident response.
 
-## 🚀 Key Features
+## Key Features
 
-- 🔄 **Live Threat Feed Aggregation**  
+- **Live Threat Feed Aggregation**  
   Pulls real-time indicators of compromise (IoCs) from platforms like AlienVault OTX (with plans for AbuseIPDB, GreyNoise, etc.).
 
-- 🧠 **Anomaly Detection Engine** *(Modular)*  
+- **Anomaly Detection Engine** *(Modular)*  
   Supports Isolation Forest, One-Class SVM, and LOF for identifying suspicious patterns in threat data.
 
-- 📊 **Real-Time Dashboard with Streamlit**  
+- **Real-Time Dashboard with Streamlit**  
   Clean and dynamic UI showing threat summaries, anomaly flags, and performance metrics.
 
-- 🚨 **Alert & Logging Framework**  
+- **Alert & Logging Framework**  
   Planned integration for alerting (email/Slack) and incident response logging.
 
-- 🔍 **Extensible Design**  
+- **Extensible Design**  
   Fully modular architecture for integrating new feeds, models, and response strategies.
 
-- 🔐 **SPIN-based Formal Verification** *(Planned)*  
+- **SPIN-based Formal Verification** *(Planned)*  
   Intended use of model checking to verify state transitions and system logic.
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer         | Tools / Libraries                      |
 |---------------|----------------------------------------|
@@ -35,7 +35,7 @@ It ingests threat feeds, detects anomalies using intelligent models, visualizes 
 | Testing       | Pytest (unit + integration tests)      |
 | Verification  | SPIN (planned)                         |
 
-## 📁 Project Structure
+## Project Structure
 
 cyber_threat_system/
 ├── aggregator/ # Data fetchers from OTX, etc.
@@ -48,16 +48,16 @@ cyber_threat_system/
 ├── README.md # You're here :)
 └── .gitignore
 
-## 🧪 Testing & Quality
+## Testing & Quality
 
-- ✅ **Integration Test Suite:** 5 integration test cases simulate data flow and module interaction.
-- 📈 **Test Coverage:** 96% overall (100% on test modules, >90% on logic).
-- 📊 **Code Metrics:**  
+- **Integration Test Suite:** 5 integration test cases simulate data flow and module interaction.
+- **Test Coverage:** 96% overall (100% on test modules, >90% on logic).
+- **Code Metrics:**  
   - Cyclomatic complexity: Rated A/B across all modules (low complexity).
   - Maintainability: High
-- 🔍 **Profiling:** Identified bottlenecks in geolocation & DB writes (caching suggested).
+- **Profiling:** Identified bottlenecks in geolocation & DB writes (caching suggested).
 
-## 📌 Roadmap
+## Roadmap
 
 - [x] Integration with AlienVault OTX
 - [x] Modular anomaly detection
@@ -66,19 +66,19 @@ cyber_threat_system/
 - [ ] SPIN-based formal verification
 - [ ] Extend to GreyNoise / AbuseIPDB feeds
 
-## 🤝 Contribution
+## Contribution
 
 Pull requests are welcome. If you’d like to contribute, please fork the repo and use a feature branch.  
 For major changes, open an issue first to discuss what you’d like to change.
 
-## 📄 License
+## License
 
-This project is currently closed-source and used for academic or demonstrative purposes.  
+This project is currently used for academic or demonstrative purposes.  
 Contact the maintainer if you'd like to collaborate or repurpose the architecture.
 
-## 📬 Contact
+## Contact
 
-👤 **Rounak Saha**  
-🔗 [LinkedIn](https://www.linkedin.com/in/rsaha0507) | ✉️ rs574.cs008@gmail.com
+**Rounak Saha**  
+🔗 [LinkedIn](https://www.linkedin.com/in/rounak-saha-932ab0253/) | ✉️ rs574.cs008@gmail.com
 
 > “Cybersecurity isn’t just detection—it’s understanding the threat, responding, and learning from it. This platform moves one step closer to making that real-time.”
