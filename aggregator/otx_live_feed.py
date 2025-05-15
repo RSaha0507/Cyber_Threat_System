@@ -7,7 +7,7 @@ import os
 load_dotenv()
 OTX_API_KEY = os.getenv("OTX_API_KEY")
 # OTX API key
-OTX_API_KEY = "8f0a153cd77d391b94005d9220e90bd208894db1d989c037a1335311ec0b4c93"
+OTX_API_KEY = "USE YOUR OWN"
 OTX_URL = "https://otx.alienvault.com/api/v1/indicators/export?type=IPv4&pulse=1"
 
 def fetch_and_store_otx_threats():
