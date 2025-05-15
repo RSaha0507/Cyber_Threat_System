@@ -79,6 +79,6 @@ Contact the maintainer if you'd like to collaborate or repurpose the architectur
 ## Contact
 
 **Rounak Saha**  
-🔗 [LinkedIn](https://www.linkedin.com/in/rounak-saha-932ab0253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) | ✉️ rs574.cs008@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/rounak-saha-932ab0253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | ✉️ rs574.cs008@gmail.com
 
 > “Cybersecurity isn’t just detection—it’s understanding the threat, responding, and learning from it. This platform moves one step closer to making that real-time.”
