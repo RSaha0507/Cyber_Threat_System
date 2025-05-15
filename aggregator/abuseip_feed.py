@@ -9,7 +9,7 @@ load_dotenv()
 
 ABUSEIPDB_API_KEY = os.getenv("ABUSEIPDB_API_KEY")
 
-ABUSEIPDB_API_KEY = "7e3451ff227b08e0e6961b21dd37ac4e36ba412c4a71863d7efd346110d9bcf862b7efe15df39e6f"
+ABUSEIPDB_API_KEY = "USE YOUR OWN"
 
 def fetch_and_store_abuseip_threats():
     try:
