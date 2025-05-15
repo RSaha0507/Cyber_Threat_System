@@ -4,9 +4,7 @@ from datetime import datetime
 from utils.ip_geo import get_geo_location
 from dotenv import load_dotenv
 import os
-
 load_dotenv()
-
 OTX_API_KEY = os.getenv("OTX_API_KEY")
 # OTX API key
 OTX_API_KEY = "8f0a153cd77d391b94005d9220e90bd208894db1d989c037a1335311ec0b4c93"
